@@ -29,7 +29,6 @@ in your component.
 
 ```app/components/double-clickable.js
 import Component from '@ember/component';
-import Ember from 'ember';
 
 export default Component.extend({
   doubleClick() {
