@@ -391,7 +391,7 @@ service, saving us from writing code on the component that just passes the actio
 ```app/services/messaging.js
 import Service from '@ember/service';
 
-export default Ember.Service.extend({
+export default Service.extend({
   actions: {
     sendMessage(messageType, text) {
       //handle message send and return a promise
